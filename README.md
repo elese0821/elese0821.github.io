@@ -14,6 +14,42 @@ bundle install
 4. 로컬서버 실행
 bundle exec jekyll serve 
 
+## post
+https://github.com/jekyll/jekyll-compose
+
+Jekyll::작성
+
+- Gemfile에 다음 줄을 추가
+gem 'jekyll-compose', group: [:jekyll_plugins]
+- 실행
+bundle
+
+
+편집기에서 새 초안이나 게시물을 자동으로 엽니다.
+  jekyll_compose:
+    auto_open: true
+
+JEKYLL_EDITOR 환경 변수 설정:
+
+Windows에서 JEKYLL_EDITOR 환경 변수를 설정하려면, 시스템 환경 변수를 편집해야 합니다. 이는 "시스템 속성"에서 "환경 변수"를 클릭하여 할 수 있습니다.
+"시스템 변수" 섹션에서 "새로 만들기"를 선택하고, 변수 이름으로 JEKYLL_EDITOR를, 변수 값으로 Atom 편집기의 실행 파일 경로를 입력합니다.
+예를 들어, Atom의 기본 설치 경로를 사용하는 경우, 변수 값은 대략 다음과 같을 것입니다: C:\Users\[YourUsername]\AppData\Local\atom\atom.exe
+
+
+drafts와 posts: 이들은 Jekyll 사이트에서 다루는 두 가지 주요 컨텐츠 유형을 나타냅니다. 'drafts'는 아직 게시되지 않은 초안이며, 'posts'는 게시할 준비가 된 글입니다.
+
+description: 게시물이나 초안에 대한 짧은 설명입니다. 이는 각 게시물의 요약이나 개요로 사용될 수 있습니다.
+
+image: 게시물이나 초안과 연관된 이미지의 경로나 URL을 지정합니다. 이는 게시물의 시각적 요소로 사용될 수 있습니다.
+
+category: 게시물이나 초안이 속하는 카테고리입니다. 이를 통해 비슷한 주제의 게시물을 그룹화할 수 있습니다.
+
+tags: 게시물이나 초안과 관련된 태그입니다. 이는 특정 키워드나 주제에 따라 게시물을 분류하는 데 도움을 줍니다.
+
+published: 게시물이 공개적으로 게시될지 여부를 결정하는 불리언 값입니다. 'false'로 설정하면 게시물이 사이트에 공개적으로 표시되지 않습니다.
+
+sitemap: 이 값이 'false'로 설정되면 해당 게시물이 사이트의 사이트맵에 포함되지 않습니다. 사이트맵은 검색 엔진 최적화(SEO)에 중요한 역할을 합니다.
+
 
 ## skills
 
