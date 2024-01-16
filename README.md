@@ -24,6 +24,9 @@ gem 'jekyll-compose', group: [:jekyll_plugins]
 - 실행
 bundle
 
+재빌드
+jekyll build
+
 
 편집기에서 새 초안이나 게시물을 자동으로 엽니다.
   jekyll_compose:
