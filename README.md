@@ -1,4 +1,5 @@
-## GIT 블로그 만들기
+## GIT 블로그
+https://elese0821.github.io/
 
 ## 루비 명령어 모음
 1. Jekyll 다운 받기
