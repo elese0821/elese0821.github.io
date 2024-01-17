@@ -27,6 +27,12 @@ bundle
 재빌드
 jekyll build
 
+새 게시물 작성
+```
+$ bundle exec jekyll post "My New Post"
+# or specify a custom format for the date attribute in the yaml front matter
+$ bundle exec jekyll post "My New Post" --timestamp-format "%Y-%m-%d %H:%M:%S %z"
+```
 
 편집기에서 새 초안이나 게시물을 자동으로 엽니다.
   jekyll_compose:
