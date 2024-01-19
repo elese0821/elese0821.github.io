@@ -10,4 +10,4 @@ published: true
 sitemap: true
 ---
 
-https://search.google.com/search-console/about
+[https://search.google.com/search-console/about]
